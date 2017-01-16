@@ -1,6 +1,6 @@
 {
   "name": "ci-marketInfo",
-  "version": "0.1.3",
+  "version": "0.2.7",
   "description": "Client for the Market Information API",
   "main": "src/marketInfo.service.js",
   "authors": [
@@ -20,6 +20,7 @@
     "angular-mocks": "~1.2.9",
     "angular-ui-router": "~0.2.15",
     "lodash": "~3.10.0",
-    "ci-call2api": "https://github.com/pablonp/ci-call2api.git"
+    "ci-call2api": "https://github.com/pablonp/ci-call2api.git",
+    "ci-translate": "https://github.com/pablonp/ci-translate.git"
   }
 }
