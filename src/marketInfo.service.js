@@ -26,7 +26,7 @@
           if (_.isNumber(marketInfo_Cache)) {
             lifeSpan = marketInfo_Cache * 60 * 1000;
           }
-          lifeSpan = 3 * 60 * 1000;
+          
         }
 
         checkLifeSpan();
