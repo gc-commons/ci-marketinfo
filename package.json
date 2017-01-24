@@ -1,6 +1,6 @@
 {
   "name": "ci-marketInfo",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "",
   "main": "src/marketInfo.service.js",
   "scripts": {

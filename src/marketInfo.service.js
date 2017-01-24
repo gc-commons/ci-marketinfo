@@ -105,22 +105,13 @@
             currentTime = new Date();
 
           checkLifeSpan();
-
-          console.log('LifeSpan to check', lifeSpan);
           
           angular.forEach(marketIds, function(marketId) {
             var market = _.find(self.MarketInfo, function(market) {
               return market.MarketId == marketId;
             });
-            if (market) {
-              console.log('Market last check timestamp', marketId, market.timeStamp);
-            } else {
-              console.log('New market', marketId);
-            }
-            console.log('Current timestamp', currentTime.getTime());
             if(market && currentTime.getTime() - market.timeStamp >= lifeSpan) {
               expiredMarkets.push(marketId);
-              console.log('Market ', marketId, 'Expired');
             }
           });
 
