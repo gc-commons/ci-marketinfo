@@ -1,11 +1,11 @@
 {
   "name": "ci-marketInfo",
-  "version": "0.1.5",
+  "version": "0.2.8",
   "description": "Client for the Market Information API",
   "main": "src/marketInfo.service.js",
   "authors": [
-    "Pablo Petran <pablo.petran@cityindex.com>",
-    "Nestor Britez <nestor.britez@cityindex.com>"
+    "Agustin Diaz <agustin.diaz@globallogic.com>",
+    "Pablo Petran <pablo.petran@cityindex.com>"
   ],
   "license": "MIT",
   "ignore": [
@@ -20,7 +20,7 @@
     "angular-mocks": "~1.2.9",
     "angular-ui-router": "~0.2.15",
     "lodash": "~3.10.0",
-    "ci-call2api": "https://github.com/pablonp/ci-call2api.git",
-    "ci-translate": "https://github.com/pablonp/ci-translate.git"
+    "ci-call2api": "https://github.com/adiaz-ci/ci-call2api.git",
+    "ci-translate": "https://github.com/adiaz-ci/ci-translate.git"
   }
 }

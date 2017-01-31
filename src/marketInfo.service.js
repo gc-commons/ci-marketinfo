@@ -21,9 +21,9 @@
 
 
         function checkLifeSpan() {
-          var marketInfo_Cache = translateSrv._('marketInfo_Cache');
+          var marketInfo_Cache = Number(translateSrv._('marketInfo_Cache'));
 
-          if (_.isNumber(marketInfo_Cache)) {
+          if (_.isFinite(marketInfo_Cache)) {
             lifeSpan = marketInfo_Cache * 60 * 1000;
           }
           
